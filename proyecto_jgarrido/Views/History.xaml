@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto_jgarrido.Views.History"
+             Title="Historial">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Menu" IconImageSource="menu.png" Clicked="OnMenuClicked" />
+    </ContentPage.ToolbarItems>
+    <StackLayout Padding="10">
+        <Label Text="Historial de Pausas Activas"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+        <ListView x:Name="HistoryListView" 
+                  HasUnevenRows="True"
+                  Margin="0,20,0,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                            <Label Text="{Binding Nombre}" 
+                                   FontAttributes="Bold"
+                                   FontSize="Medium"
+                                   LineBreakMode="TailTruncation" />
+                            <Label Text="{Binding Descripcion}" 
+                                   FontSize="Small"
+                                   LineBreakMode="WordWrap" />
+                            <Label Text="{Binding Fecha_Realizacion}"
+                                   FontSize="Small"
+                                   TextColor="Gray"
+                                   HorizontalOptions="End" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

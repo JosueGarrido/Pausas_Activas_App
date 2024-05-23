@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto_jgarrido.Views.LoginPage"
+             Title="Inicio de Sesion">
+    <StackLayout Padding="30" VerticalOptions="CenterAndExpand">
+
+        <Label Text="Inicio de Sesión" 
+               FontSize="Large" 
+               HorizontalOptions="Center" />
+
+        <Entry x:Name="EmailEntry" 
+               Placeholder="Correo Electrónico" 
+               Keyboard="Email"
+               Margin="0,20,0,0" />
+
+        <Entry x:Name="PasswordEntry" 
+               Placeholder="Contraseña" 
+               IsPassword="True" />
+
+        <Button Text="Iniciar Sesión" 
+                Clicked="OnLoginButtonClicked"
+                Margin="0,20,0,0" />
+
+        <Label x:Name="MessageLabel" 
+               TextColor="Red"
+               HorizontalOptions="Center"
+               IsVisible="False" />
+
+    </StackLayout>
+</ContentPage>

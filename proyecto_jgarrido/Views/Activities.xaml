@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto_jgarrido.Views.Activities"
+             Title="Actividades">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Menu" IconImageSource="menu.png" Clicked="OnMenuClicked" />
+    </ContentPage.ToolbarItems>
+    <StackLayout Padding="10">
+        <Label Text="Actividades de Pausas Activas"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+        <ListView x:Name="ActivitiesListView" 
+                  ItemSelected="OnActivitySelected"
+                  Margin="0,20,0,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Nombre}" 
+                              Detail="{Binding Descripcion}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="btnAgregar"
+                                Text="Agregar"
+                                Clicked="btnAgregar_Clicked" />
+    </StackLayout>
+</ContentPage>

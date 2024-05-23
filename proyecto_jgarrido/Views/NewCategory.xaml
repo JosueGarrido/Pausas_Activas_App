@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto_jgarrido.Views.NewCategory"
+             Title="Nueva Categoría">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Menu" IconImageSource="menu.png" Clicked="OnMenuClicked" />
+    </ContentPage.ToolbarItems>
+    <StackLayout Padding="10">
+            <Label Text="Crear Nueva Categoria"
+                   FontSize="Large"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Nombre de la Categoria" />
+            <Entry x:Name="NombreEntry" Placeholder="Nombre" />
+
+            <Label Text="Descripción" />
+            <Editor x:Name="DescripcionEditor" Placeholder="Descripción" HeightRequest="100" />
+
+            <Button Text="Crear Categoria"
+                    Clicked="OnCrearCategoryClicked" 
+                    BackgroundColor="LightBlue" 
+                    TextColor="White" 
+                    Margin="0,20,0,0" />
+        </StackLayout>
+</ContentPage>

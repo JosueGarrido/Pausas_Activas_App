@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyecto_jgarrido.Views.ActivityDetailPage"
+             Title="Detalle de Actividad">
+    <StackLayout Padding="10">
+        <Label x:Name="ActivityNameLabel" 
+               FontSize="Large" 
+               HorizontalOptions="Center" />
+        <Label x:Name="ActivityDescriptionLabel"
+               Margin="0,20,0,0" />
+        <Label x:Name="ActivityDurationLabel"
+               Margin="0,10,0,0" />
+        <Button Text="Registrar Actividad Realizada"
+                Clicked="OnRegisterActivityClicked"
+                Margin="0,20,0,0" />
+
+        <Button Text="Tomar Foto" Clicked="Button_Clicked"/>
+        <Button Text="Obtener Galeria" Clicked="Button_Clicked_1"/>
+        <Image x:Name="imgFoto" />
+
+        <Button Text="Comentarios" Clicked="Button_Comment"/>
+        <Button Text="Editar" Clicked="Button_Editar"/>
+    </StackLayout>
+</ContentPage>

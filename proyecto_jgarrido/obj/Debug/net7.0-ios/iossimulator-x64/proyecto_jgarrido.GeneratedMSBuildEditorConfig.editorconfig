@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = proyecto_jgarrido
+build_property.ProjectDir = /Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Views/Activities.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Views.Activities.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Activities.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Activities.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Views/ActivityDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Views.ActivityDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ActivityDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ActivityDetailPage.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Views/Categories.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Views.Categories.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Categories.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Categories.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Views/Comments.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Views.Comments.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Comments.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Comments.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Views/EditActivity.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Views.EditActivity.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/EditActivity.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/EditActivity.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Views/History.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Views.History.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/History.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/History.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/LoginPage.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Views/NewActivity.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Views.NewActivity.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/NewActivity.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/NewActivity.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Views/NewCategory.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Views.NewCategory.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/NewCategory.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/NewCategory.xaml
+
+[/Users/josuegarrido/Projects/proyecto_jgarrido/proyecto_jgarrido/Views/NewComment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = proyecto_jgarrido.Views.NewComment.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/NewComment.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/NewComment.xaml
