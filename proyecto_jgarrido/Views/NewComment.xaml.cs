@@ -38,7 +38,7 @@ public partial class NewComment : ContentPage
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
 
-            HttpResponseMessage response = await httpClient.PostAsync("http://10.204.14.206:9000/comments", content);
+            HttpResponseMessage response = await httpClient.PostAsync("http://10.2.3.102:9000/comments", content);
 
             if (response.IsSuccessStatusCode)
             {

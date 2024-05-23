@@ -36,7 +36,7 @@ public partial class EditActivity : ContentPage
                     Fecha_Creacion = FechaEntry.Text
                 }), Encoding.UTF8, "application/json");
 
-                var response = await client.PutAsync("http://10.204.14.206:9000/activities/"+ _selectedActivity.Id, content);
+                var response = await client.PutAsync("http://10.2.3.102:9000/activities/" + _selectedActivity.Id, content);
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -61,7 +61,7 @@ public partial class EditActivity : ContentPage
         {
             using (HttpClient client = new HttpClient())
             {
-                var response = await client.DeleteAsync($"http://10.204.14.206:9000/activities/{_selectedActivity.Id}");
+                var response = await client.DeleteAsync($"http://10.2.3.102:9000/activities/{_selectedActivity.Id}");
 
                 if (response.IsSuccessStatusCode)
                 {

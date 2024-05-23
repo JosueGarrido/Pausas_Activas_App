@@ -6,7 +6,7 @@ namespace proyecto_jgarrido.Views;
 
 public partial class Categories : ContentPage
 {
-    private const string Url = "http://10.204.14.206:9000/categories";
+    private const string Url = "http://10.2.3.102:9000/categories";
     private readonly HttpClient cliente = new HttpClient();
     private ObservableCollection<Models.Categoria> category;
     public Categories()

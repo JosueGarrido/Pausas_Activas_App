@@ -8,7 +8,7 @@ namespace proyecto_jgarrido.Views;
 
 public partial class History : ContentPage
 {
-    private const string Url = "http://10.204.14.206:9000/users/activity/";
+    private const string Url = "http://10.2.3.102:9000/users/activity/";
     private readonly HttpClient cliente = new HttpClient();
     private ObservableCollection<Models.HistoryModel> history;
 

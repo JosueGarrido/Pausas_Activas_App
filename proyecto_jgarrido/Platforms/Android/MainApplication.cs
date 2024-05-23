@@ -4,6 +4,8 @@ using Android.Runtime;
 namespace proyecto_jgarrido;
 
 [Application]
+
+
 public class MainApplication : MauiApplication
 {
 	public MainApplication(IntPtr handle, JniHandleOwnership ownership)
@@ -11,6 +13,9 @@ public class MainApplication : MauiApplication
 	{
 	}
 
+
 	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+    
 }
+
 

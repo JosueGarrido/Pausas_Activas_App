@@ -7,7 +7,7 @@ namespace proyecto_jgarrido.Views;
 
 public partial class Comments : ContentPage
 {
-    private const string Url = "http://10.204.14.206:9000/comments/activity/";
+    private const string Url = "http://10.2.3.102:9000/comments/activity/";
     private readonly HttpClient cliente = new HttpClient();
     private ObservableCollection<Models.ComentarioModel> comments;
     private Actividad _selectedActivity;

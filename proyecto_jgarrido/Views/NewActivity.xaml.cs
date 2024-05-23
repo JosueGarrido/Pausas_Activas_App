@@ -33,7 +33,7 @@ public partial class NewActivity : ContentPage
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             Debug.WriteLine("JSON Enviado: " + json);
 
-            HttpResponseMessage response = await httpClient.PostAsync("http://10.204.14.206:9000/activities", content);
+            HttpResponseMessage response = await httpClient.PostAsync("http://10.2.3.102:9000/activities", content);
 
             if (response.IsSuccessStatusCode)
             {

@@ -6,7 +6,7 @@ namespace proyecto_jgarrido.Views;
 
 public partial class LoginPage : ContentPage
 {
-    private const string Url = "http://10.204.14.206:9000/users";
+    private const string Url = "http://10.2.3.102:9000/users";
     private readonly HttpClient cliente = new HttpClient();
 	public LoginPage()
 	{
